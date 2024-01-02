@@ -1,0 +1,450 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  background-color: #1a1a1a;
+  height: 100vh;
+}
+
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: auto;
+}
+
+/*.......Navbar......*/
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 500;
+  margin-top: 1rem;
+}
+
+.navbar.solid {
+  background-color: #22668D;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  
+}
+
+.menu-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-items li {
+  list-style: none;
+  padding: 1rem;
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.menu-items a {
+  text-decoration: none;
+  color: #FFFADD;
+  font-size: 1rem;
+  padding: 0.3rem;
+  display: inline-block
+}
+
+.menu-items a:hover {
+  border-bottom: 2px solid #FFFADD;
+}
+
+.navbar-container .logo {
+  color: #FFFADD;
+  margin-right: 10px; }
+
+.navbar-container img {
+    max-width: 40%;
+    margin-right: 0;
+    align-items: center;
+    margin-left: -100px;
+    margin-top: 15rem;
+    /* Add any other styling you need for the logo */
+  }
+
+/*.......Home Content......*/
+
+.home-content .name {
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFCC70;
+  width: 100%;
+  text-align: center;
+}
+
+.home-content .name h1 {
+  font-size: 2.2rem;
+  text-align: center;
+}
+
+.home-content p {
+  color: #FFFADD;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-right: 20rem;
+  margin-left: 20rem;
+
+}
+
+.angle-down-icon {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  border: 3px solid #FFFADD;
+  border-radius: 50%;
+}
+
+.angle-down-icon a {
+  text-decoration: none;
+  color: #FFCC70;
+  padding: 1rem;
+}
+
+/*........Mission.......*/
+
+.mission {
+  background-color: #2C3E50;
+  padding: 6rem 0;
+}
+
+.mission .mission-heading {
+  color: #8ECDDD;
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.mission-content img {
+  height: 200px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.mission-content p {
+  font-size: 1.2rem;
+  color: #FFFADD;
+  padding: 0 2.3rem;
+  text-align: center;
+}
+
+
+.mission .mission-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mission-content .left-content {
+  flex-basis: 45%;
+  text-align: center;
+}
+
+.mission-content .right-content {
+  flex-basis: 45%;
+}
+
+
+
+.navbar.solid {
+  background-color: #22668D;
+  transition: background-color 5s;
+  box-shadow: 0 0 4px rgb(7 55 74 / 20%);
+  z-index: 500;
+}
+
+.navbar.solid .navbar-brand {
+  display: inline-block;
+  color: #FFFADD;
+  transition: color 5s;
+
+}
+
+.navbar-brand {
+  
+  color: #FFCC70;
+  font-weight: 400;
+}
+
+.what-arrow {
+  margin: 2rem 0;
+}
+
+.what-arrow a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: #8ECDDD;
+}
+
+.what-arrow-2 {
+  margin: 2rem 0;
+}
+
+.what-arrow-2 a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: #8ECDDD;
+  display: none;
+}
+
+/*.....What We Do.....*/
+
+.what_we_offer {
+  background: #1a1a1a;
+  padding: 6rem 0;
+}
+
+.what_we_offer h2{
+ font-size: 1.5rem;
+ font-style: italic;
+ color:#FFCC70;
+ text-align: center;
+
+}
+
+.what_we_offer p{
+  font-size: 1.2rem;
+  color: #FFFADD;
+  margin-right: 30rem;
+  margin-left: 30rem;
+  text-align: center;
+}
+
+.what-heading h1 {
+  text-align: center;
+  color: #FFCC70;
+  font-size: 2.3rem;
+  font-weight: 700;
+  margin: 3rem 0;
+}
+
+/*...... Why Choose US.....*/
+.why-content {
+  justify-content: center;
+}
+
+.why-choose-us .why-heading {
+  color: #8ECDDD;
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.why-choose-us {
+  background: #2C3E50;
+  padding: 6rem 0;
+}
+
+.why-content h1 {
+  color: #8ECDDD;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.why-content p {
+  font-size: 1.2rem;
+  color: #FFFADD;
+  padding: 0 2.3rem;
+  text-align: center;
+}
+
+.why-choose-us .why-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.why-content .to-learn {
+  flex-basis: 45%;
+  text-align: center;
+}
+
+.why-content .to-teach {
+  flex-basis: 45%;
+}
+
+
+/* .....Join Us..... */
+
+.join_us p{
+  font-size: 1.2rem;
+  color: #FFFADD;
+  margin-right: 30rem;
+  margin-left: 30rem;
+  text-align: center;
+}
+
+.join-heading h1 {
+  text-align: center;
+  color: #FFCC70;
+  font-size: 2.3rem;
+  font-weight: 700;
+  margin: 3rem 0;
+}
+
+
+.join_us {
+  background: #22668D;
+  position: relative;
+  height: 92vh;
+}
+
+.join-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.join-content h2 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #8ECDDD;
+  padding-bottom: 0.5rem;
+}
+
+
+
+/* ////......Media query......//// */
+
+@media (max-width: 500px) {
+  html {
+    font-size: 60%;
+  }
+
+  .mission-content .left-content {
+    flex-basis: 100%;
+    text-align: center;
+  }
+
+  .mission-content .right-content {
+    flex-basis: 100%;
+  }
+
+
+  .what-arrow {
+    display: none;
+  }
+
+  .right-content h1 {
+    margin-top: 3.2rem;
+  }
+
+
+  .what-arrow-2 a {
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: #8ECDDD;
+    display: block;
+    text-align: center;
+  }
+
+  .join-content {
+    width: 100%;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 768px) {
+  html {
+    font-size: 65%;
+  }
+
+  .mission-content .left-content {
+    flex-basis: 100%;
+    text-align: center;
+  }
+
+  .mission-content .right-content {
+    flex-basis: 100%;
+  }
+
+  .what-arrow {
+    display: none;
+  }
+
+  .right-content h1 {
+    margin-top: 3.2rem;
+  }
+
+  .what-arrow-2 a {
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: #8ECDDD;
+    display: block;
+    text-align: center;
+  }
+
+  .join-content {
+    width: 100%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  html {
+    font-size: 70%;
+  }
+
+  .mission-content .left-content {
+    flex-basis: 100%;
+    text-align: center;
+  }
+
+  .mission-content .right-content {
+    flex-basis: 100%;
+  }
+
+  .what-arrow {
+    display: none;
+  }
+
+  .left-content h1 {
+    margin-top: 3.2rem;
+    text-align: center;
+  }
+
+  .right-content h1 {
+    margin-top: 3.2rem;
+    text-align: center;
+  }
+
+  .what-arrow-2 a {
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: #8ECDDD;
+    display: block;
+    text-align: center;
+  }
+
+  .join-content {
+    width: 100%;
+  }
+}
+
+@media (orientation: landscape) and (max-height: 500px) {
+  .header {
+    height: 90vmax;
+  }
+}
